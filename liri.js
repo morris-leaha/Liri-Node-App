@@ -12,29 +12,70 @@ var axios = require("axios");
 var spotify = new Spotify(keys.spotify);
 
 // =====================USER INPUT & SWITCH CASES TO CALL FUNCTIONS=============================
+// (referenced in class activity 15-BankJS):
 
-// store user input in variable
-var userInput = process.argv[2];
+// store user input (or action requested) in variable
+var action = process.argv[2];
 
 // use switch case to direct which function will run with command line code
-switch (userInput) {
+switch (action) {
     case "concert-this":
-        concert ();
+        concert();
         break;
 
     case "spotify-this-song":
-        spotify ();
+        spotify();
         break;
-    
+
     case "movie-this":
-        movie ();
+        movie();
         break;
 
     case "do-what-it-says":
-        doWhat ();
+        doWhat();
         break;
-    
+
     default:
         console.log("Please check your command!");
 }
+
+// =====================FUNCTIONS=============================
+// (adapted from in class activities)
+
+function concert() {
+    var artist = process.argv[3];
+
+    axios.get("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp")
+        .then(function (response) {
+            console.log(response.data);
+
+            // loop through response.data.legnth to display:
+                // 1. name of venue
+                    // console.log("Venue " + response.data.venue.nameorsomething);
+                // 2. venue location
+                    // console.log("Venue Location: " + response.data.venue.locationorsomething);
+                // 3. date of the event 
+                    // (use moment to format at MM/DD/YYYY)
+                        // store response.data.dateorwhater in variable
+                            // var date = moment(response.data.dateorwhatever).format("MM/DD/YYYY");
+                    // console.log("Date: " + date);
+        })
+}
+
+
+function spotify () {
+
+}
+
+function movie () {
+
+}
+
+function doWhat () {
+    
+}
+
+
+
+
 
