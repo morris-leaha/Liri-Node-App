@@ -227,7 +227,7 @@ function doWhat () {
 
 function writeData (action, result) {
     var fs = require("fs");
-    var text = ("\n" + "------------" + "\n" + "Command: " + action + "\n" + result + "\n" + "------------" + "\n");
+    var text = ("------------" + "\n" + "Command: " + action + "\n" + result + "\n" + "------------" + "\n");
 
     fs.appendFile("log.txt", text, function(error) {
         if (error) {

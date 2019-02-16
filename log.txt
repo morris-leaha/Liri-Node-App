@@ -240,3 +240,23 @@ Song: I Want It That Way
 Album: The Hits--Chapter One
 Spotify URL: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
 ------------
+------------
+Command: do-what-it-says
+Search term: "I Want it That Way"
+Artist: Backstreet Boys
+Song: I Want It That Way
+Album: The Hits--Chapter One
+Spotify URL: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
+------------
+------------
+Command: movie-this
+Search term: Cinderella
+Title: Cinderella
+Release Year: 2015
+IMDB Rating: 6.9
+Rotten Tomatoes Rating: 84%
+Produced in: USA, UK
+Language: English
+Plot: When her father unexpectedly dies, young Ella finds herself at the mercy of her cruel stepmother and her scheming stepsisters. Never one to give up hope, Ella's fortunes begin to change after meeting a dashing stranger.
+Actors: Cate Blanchett, Lily James, Richard Madden, Helena Bonham Carter
+------------
