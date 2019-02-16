@@ -5,14 +5,14 @@ require("dotenv").config();
 // store all other necessary node packages in variables to use throughout 
 var keys = require("./keys.js");
 var moment = require("moment");
-// var Spotify = require("node-spotify-api");
+var Spotify = require("node-spotify-api");
 var axios = require("axios");
 
-// allows us to use special keys from keys.js 
-// var spotify = new Spotify(keys.spotify);
+// allows us to use special keys from keys.js (per instructions)
+var spotify = new Spotify(keys.spotify);
 
 // =====================USER INPUT & SWITCH CASES TO CALL FUNCTIONS=============================
-// (referenced in class activity 15-BankJS):
+// (referenced from in class activity 15-BankJS):
 
 // store user input (or action requested) in variable
 var action = process.argv[2];
@@ -24,7 +24,7 @@ switch (action) {
         break;
 
     case "spotify-this-song":
-        spotify();
+        spotifyThis();
         break;
 
     case "movie-this":
@@ -53,6 +53,7 @@ function concert() {
 
         // loop through response.data.legnth to display:
         for (var i = 0; i < response.data.length; i++) {
+            console.log("---------------------------");
             // display artist name
             console.log("Artist: " + artistName);
             // display line-up
@@ -65,6 +66,7 @@ function concert() {
             var date = moment(response.data[i].datetime).format("MM/DD/YYYY");
             console.log("Date: " + date);
             console.log("---------------------------");
+            
         }
     })
         .catch(function (error) { // handling errors per axios documentation (https://www.npmjs.com/package/axios)
@@ -87,9 +89,26 @@ function concert() {
         });
 }
 
-// function spotify () {
+function spotifyThis() {
+    var song = process.argv[3];
 
-// }
+    // search node-spotify-api per documentation (https://www.npmjs.com/package/node-spotify-api)
+    spotify.search({ type: 'track', query: song }, function (err, data) {
+        if (err) {
+            return console.log('Error occurred: ' + err);
+        }
+        console.log("---------------------------");
+        // 1. display artist name
+        console.log("Artist: " + data.tracks.items[0].album.artists[0].name);
+        // 2. display song name
+        console.log("Song: " + data.tracks.items[0].name);
+        // 3. display the album
+        console.log("Album: " + data.tracks.items[0].album.name);
+        // 4. display link to preview song on spotify
+        console.log("Preview song on spotify here: " + data.tracks.items[0].external_urls.spotify);
+        console.log("---------------------------");
+    });
+}
 
 // function movie () {
 
