@@ -28,7 +28,7 @@ SPOTIFY_SECRET=your-spotify-secret
 ```
 ## How To Obtain Your Own Necessary Spotify API Credentials: 
 1. Visit <https://developer.spotify.com/my-applications/#!/>
-2. Login to either an existing Spotify account or create a new one (a free account is fine) and log in.
+2. in to either an existing Spotify account or create a new one (a free account is fine) and log in.
 3. Once logged in, navigate to <https://developer.spotify.com/my-applications/#!/applications/create> to register for a new application to be used with the Spotify API. 
 4. On the next screen, copy the corresponding values into your `.env` file.
 
@@ -72,9 +72,9 @@ You should be able to run LIRI by using the following command line codes:
    * Using the `fs` Node package, LIRI will take the text written in the `random.txt` file and will use it to call one of LIRI's commands.
 
     * Currently, the code should run the command `spotify-this-song` for "I Want it That Way"
-
     * Edit the text in `random.txt` to test with the `movie-this` and `concert-this` command.
 
+**NOTE:** All returned and displayed data from the command line will be stored and appended within the `log.txt` file.
 
 
 
