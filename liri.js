@@ -43,7 +43,7 @@ switch (action) {
 // (adapted from in class activities)
 
 function concert() {
-    var artistName = process.argv[3];
+    var artistName = process.argv.slice(3).join(" ");
 
     var qURL = "https://rest.bandsintown.com/artists/" + artistName + "/events?app_id=codingbootcamp";
     // console.log(qURL);
@@ -98,7 +98,7 @@ function concert() {
 }
 
 function spotifyThis() {
-    var songInput = process.argv[3];
+    var songInput = process.argv.slice(3).join("+");
 
     // if user doesn't input a song, default to 'The Sign' by Ace of Base
     // put artist instead of song -- fellow colleagues identified the problem that using the song name 'The Sign' did not result in Ace of Base as the artist 
@@ -133,8 +133,7 @@ function spotifyThis() {
 }
 
 function movie() {
-    // var movie = process.argv[3].split(" ").join("+");
-    var movie = process.argv[3];
+    var movie = process.argv.slice(3).join("+");
 
     if (!movie) {
         movie = "Mr.Nobody";

@@ -260,3 +260,427 @@ Language: English
 Plot: When her father unexpectedly dies, young Ella finds herself at the mercy of her cruel stepmother and her scheming stepsisters. Never one to give up hope, Ella's fortunes begin to change after meeting a dashing stranger.
 Actors: Cate Blanchett, Lily James, Richard Madden, Helena Bonham Carter
 ------------
+------------
+Command: movie-this
+Search term: The
+Title: The Shawshank Redemption
+Release Year: 1994
+IMDB Rating: 9.3
+Rotten Tomatoes Rating: 91%
+Produced in: USA
+Language: English
+Plot: Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.
+Actors: Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler
+------------
+------------
+Command: movie-this
+Search term: The Dark Knight
+Title: The Dark Knight
+Release Year: 2008
+IMDB Rating: 9.0
+Rotten Tomatoes Rating: 94%
+Produced in: USA, UK
+Language: English, Mandarin
+Plot: When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.
+Actors: Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine
+------------
+------------
+Command: movie-this
+Search term: The Dark Knight
+Title: The Dark Knight
+Release Year: 2008
+IMDB Rating: 9.0
+Rotten Tomatoes Rating: 94%
+Produced in: USA, UK
+Language: English, Mandarin
+Plot: When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.
+Actors: Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine
+------------
+------------
+Command: movie-this
+Search term: The+Dark+Knight
+Title: The Dark Knight
+Release Year: 2008
+IMDB Rating: 9.0
+Rotten Tomatoes Rating: 94%
+Produced in: USA, UK
+Language: English, Mandarin
+Plot: When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.
+Actors: Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine
+------------
+------------
+Command: spotify-this-song
+Search term: Get+Low
+Artist: Lil Jon & The East Side Boyz
+Song: Get Low
+Album: Kings Of Crunk
+Spotify URL: https://open.spotify.com/track/0r2Bul2NuCViraT2zX1l5j
+------------
+------------
+Command: spotify-this-song
+Search term: Get
+Artist: Daniel Caesar
+Song: Get You (feat. Kali Uchis)
+Album: Freudian
+Spotify URL: https://open.spotify.com/track/7zFXmv6vqI4qOt4yGf3jYZ
+------------
+------------
+Command: spotify-this-song
+Search term: Get+Low
+Artist: Lil Jon & The East Side Boyz
+Song: Get Low
+Album: Kings Of Crunk
+Spotify URL: https://open.spotify.com/track/0r2Bul2NuCViraT2zX1l5j
+------------
+------------
+Command: concert-this
+Artist: Justin+Timberlake
+Lineup: Justin Timberlake
+Venue: Moda Center
+Location: Portland
+Date: 02/18/2019
+------------
+------------
+Command: concert-this
+Artist: Justin+Timberlake
+Lineup: Justin Timberlake
+Venue: Pechanga Arena San Diego
+Location: San Diego
+Date: 02/21/2019
+------------
+------------
+Command: concert-this
+Artist: Justin+Timberlake
+Lineup: Justin Timberlake
+Venue: Honda Center
+Location: Anaheim
+Date: 02/22/2019
+------------
+------------
+Command: concert-this
+Artist: Justin+Timberlake
+Lineup: Justin Timberlake
+Venue: Golden 1 Center
+Location: Sacramento
+Date: 02/24/2019
+------------
+------------
+Command: concert-this
+Artist: Justin+Timberlake
+Lineup: Justin Timberlake
+Venue: Talking Stick Resort Arena
+Location: Phoenix
+Date: 03/05/2019
+------------
+------------
+Command: concert-this
+Artist: Justin+Timberlake
+Lineup: Justin Timberlake
+Venue: T-Mobile Arena
+Location: Las Vegas
+Date: 03/08/2019
+------------
+------------
+Command: concert-this
+Artist: Justin+Timberlake
+Lineup: Justin Timberlake
+Venue: Staples Center
+Location: Los Angeles
+Date: 03/10/2019
+------------
+------------
+Command: concert-this
+Artist: Justin+Timberlake
+Lineup: Justin Timberlake
+Venue: Save Mart Center
+Location: Fresno
+Date: 03/13/2019
+------------
+------------
+Command: concert-this
+Artist: Justin+Timberlake
+Lineup: Justin Timberlake
+Venue: Oracle Arena
+Location: Oakland
+Date: 03/15/2019
+------------
+------------
+Command: concert-this
+Artist: Justin+Timberlake
+Lineup: Justin Timberlake
+Venue: Sprint Center
+Location: Kansas City
+Date: 03/21/2019
+------------
+------------
+Command: concert-this
+Artist: Justin+Timberlake
+Lineup: Justin Timberlake
+Venue: CHI Health Center Omaha
+Location: Omaha
+Date: 03/23/2019
+------------
+------------
+Command: concert-this
+Artist: Justin+Timberlake
+Lineup: Justin Timberlake
+Venue: Little Caesars Arena
+Location: Detroit
+Date: 03/25/2019
+------------
+------------
+Command: concert-this
+Artist: Justin+Timberlake
+Lineup: Justin Timberlake
+Venue: Enterprise Center
+Location: Saint Louis
+Date: 03/28/2019
+------------
+------------
+Command: concert-this
+Artist: Justin+Timberlake
+Lineup: Justin Timberlake
+Venue: Nationwide Arena
+Location: Columbus
+Date: 03/31/2019
+------------
+------------
+Command: concert-this
+Artist: Justin+Timberlake
+Lineup: Justin Timberlake
+Venue: Bankers Life Fieldhouse
+Location: Indianapolis
+Date: 04/02/2019
+------------
+------------
+Command: concert-this
+Artist: Justin+Timberlake
+Lineup: Justin Timberlake
+Venue: Van Andel Arena
+Location: Grand Rapids
+Date: 04/04/2019
+------------
+------------
+Command: concert-this
+Artist: Justin+Timberlake
+Lineup: Justin Timberlake
+Venue: KeyBank Center
+Location: Buffalo
+Date: 04/06/2019
+------------
+------------
+Command: concert-this
+Artist: Justin+Timberlake
+Lineup: Justin Timberlake
+Venue: Wells Fargo Center
+Location: Philadelphia
+Date: 04/09/2019
+------------
+------------
+Command: concert-this
+Artist: Justin+Timberlake
+Lineup: Justin Timberlake
+Venue: Mohegan Sun Arena
+Location: Uncasville
+Date: 04/12/2019
+------------
+------------
+Command: concert-this
+Artist: Justin+Timberlake
+Lineup: Justin Timberlake
+Venue: Mohegan Sun Arena
+Location: Uncasville
+Date: 04/13/2019
+------------
+------------
+Command: concert-this
+Artist: Justin
+Lineup: Justin
+Venue: Grace City Church
+Location: Bourbon
+Date: 02/22/2019
+------------
+------------
+Command: concert-this
+Artist: Justin
+Lineup: Justin
+Venue: Crest Theatre
+Location: Sacramento
+Date: 03/15/2019
+------------
+------------
+Command: concert-this
+Artist: Justin Timberlake
+Lineup: Justin Timberlake
+Venue: Rogers Arena
+Location: Vancouver
+Date: 02/14/2019
+------------
+------------
+Command: concert-this
+Artist: Justin Timberlake
+Lineup: Justin Timberlake
+Venue: Rogers Arena
+Location: Vancouver
+Date: 02/15/2019
+------------
+------------
+Command: concert-this
+Artist: Justin Timberlake
+Lineup: Justin Timberlake
+Venue: Moda Center
+Location: Portland
+Date: 02/18/2019
+------------
+------------
+Command: concert-this
+Artist: Justin Timberlake
+Lineup: Justin Timberlake
+Venue: Pechanga Arena San Diego
+Location: San Diego
+Date: 02/21/2019
+------------
+------------
+Command: concert-this
+Artist: Justin Timberlake
+Lineup: Justin Timberlake
+Venue: Honda Center
+Location: Anaheim
+Date: 02/22/2019
+------------
+------------
+Command: concert-this
+Artist: Justin Timberlake
+Lineup: Justin Timberlake
+Venue: Golden 1 Center
+Location: Sacramento
+Date: 02/24/2019
+------------
+------------
+Command: concert-this
+Artist: Justin Timberlake
+Lineup: Justin Timberlake
+Venue: Talking Stick Resort Arena
+Location: Phoenix
+Date: 03/05/2019
+------------
+------------
+Command: concert-this
+Artist: Justin Timberlake
+Lineup: Justin Timberlake
+Venue: T-Mobile Arena
+Location: Las Vegas
+Date: 03/08/2019
+------------
+------------
+Command: concert-this
+Artist: Justin Timberlake
+Lineup: Justin Timberlake
+Venue: Staples Center
+Location: Los Angeles
+Date: 03/10/2019
+------------
+------------
+Command: concert-this
+Artist: Justin Timberlake
+Lineup: Justin Timberlake
+Venue: Save Mart Center
+Location: Fresno
+Date: 03/13/2019
+------------
+------------
+Command: concert-this
+Artist: Justin Timberlake
+Lineup: Justin Timberlake
+Venue: Oracle Arena
+Location: Oakland
+Date: 03/15/2019
+------------
+------------
+Command: concert-this
+Artist: Justin Timberlake
+Lineup: Justin Timberlake
+Venue: Sprint Center
+Location: Kansas City
+Date: 03/21/2019
+------------
+------------
+Command: concert-this
+Artist: Justin Timberlake
+Lineup: Justin Timberlake
+Venue: CHI Health Center Omaha
+Location: Omaha
+Date: 03/23/2019
+------------
+------------
+Command: concert-this
+Artist: Justin Timberlake
+Lineup: Justin Timberlake
+Venue: Little Caesars Arena
+Location: Detroit
+Date: 03/25/2019
+------------
+------------
+Command: concert-this
+Artist: Justin Timberlake
+Lineup: Justin Timberlake
+Venue: Enterprise Center
+Location: Saint Louis
+Date: 03/28/2019
+------------
+------------
+Command: concert-this
+Artist: Justin Timberlake
+Lineup: Justin Timberlake
+Venue: Nationwide Arena
+Location: Columbus
+Date: 03/31/2019
+------------
+------------
+Command: concert-this
+Artist: Justin Timberlake
+Lineup: Justin Timberlake
+Venue: Bankers Life Fieldhouse
+Location: Indianapolis
+Date: 04/02/2019
+------------
+------------
+Command: concert-this
+Artist: Justin Timberlake
+Lineup: Justin Timberlake
+Venue: Van Andel Arena
+Location: Grand Rapids
+Date: 04/04/2019
+------------
+------------
+Command: concert-this
+Artist: Justin Timberlake
+Lineup: Justin Timberlake
+Venue: KeyBank Center
+Location: Buffalo
+Date: 04/06/2019
+------------
+------------
+Command: concert-this
+Artist: Justin Timberlake
+Lineup: Justin Timberlake
+Venue: Wells Fargo Center
+Location: Philadelphia
+Date: 04/09/2019
+------------
+------------
+Command: concert-this
+Artist: Justin Timberlake
+Lineup: Justin Timberlake
+Venue: Mohegan Sun Arena
+Location: Uncasville
+Date: 04/12/2019
+------------
+------------
+Command: concert-this
+Artist: Justin Timberlake
+Lineup: Justin Timberlake
+Venue: Mohegan Sun Arena
+Location: Uncasville
+Date: 04/13/2019
+------------
