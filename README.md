@@ -33,12 +33,12 @@ SPOTIFY_SECRET=your-spotify-secret
 
 **NOTE:** This file will set your spotify credentials as "environment variables" to the global `process.env` object in nofe, so that they can be used by the `dotenv` node package to remain private! 
 
-## Run Using Node.JS 
+## Run LIRI Using Node.JS 
 (If necessary, you can download Node.JS <a href="https://nodejs.org/en/download/">here</a>)
 
 You should be able to run LIRI by using the following command line codes:
 
-`node liri.js concert-this <artist/band name here>`
+1. `node liri.js concert-this <artist/band name here>`
    * This will search the Bands in Town Artist Events API and render the following information about each event to your terminal/bash:
         ```
         * Name of the artist searched
@@ -47,7 +47,7 @@ You should be able to run LIRI by using the following command line codes:
         * Venue location
         * Date of the Event ("MM/DD/YYYY")
         ```
-`node liri.js spotify-this-song <song name here>`
+2. `node liri.js spotify-this-song <song name here>`
    * This will search the Spotify API and render the following information about each song to your terminal/bash:
         ```
         * Artist(s)
@@ -55,7 +55,7 @@ You should be able to run LIRI by using the following command line codes:
         * Album the song is on
         * Link to spotify for preview of song
         ```
-`node liri.js movie-this <movie name here>`
+3. `node liri.js movie-this <movie name here>`
    * This will search the OMBD API and render the following information about each movie to your terminal/bash:
         ```
         * Movie Title
@@ -67,12 +67,12 @@ You should be able to run LIRI by using the following command line codes:
         * Plot
         * List of Actors
         ```
-`node liri.js do-what-it-says`
+4. `node liri.js do-what-it-says`
    * Using the `fs` Node package, LIRI will take the text written in the `random.txt` file and will use it to call one of LIRI's commands.
 
-     * Currently, the code should run the command `spotify-this-song` for "I Want it That Way"
+    * Currently, the code should run the command `spotify-this-song` for "I Want it That Way"
 
-     * Edit the text in `random.txt` to test with the `movie-this` and `concert-this` command.
+    * Edit the text in `random.txt` to test with the `movie-this` and `concert-this` command.
 
 
 
