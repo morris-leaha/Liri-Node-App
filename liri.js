@@ -174,9 +174,25 @@ function movie() {
 
 }
 
-// function doWhat () {
+function doWhat () {
+    var fs = require("fs");
 
-// }
+    fs.readFile("random.txt", "utf8", function(error, data) { // adapted from in class activity 12-ReadFile
+        if (error) {
+            return console.log(error);
+        }
+        // split text (at comma) and put into an array --> store in variable
+        var dataArr = data.split(",");
+        console.log(dataArr);
+
+        process.argv[3] = dataArr[1]; // set "I Want it That Way" text (at index 1 of dataArr) to be "search term"
+        process.argv[2] = dataArr[0];
+
+        if (dataArr[0] === 'spotify-this-song') {
+            spotifyThis(process.argv[3]);
+        }
+    });
+}
 
 
 
