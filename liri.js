@@ -5,11 +5,11 @@ require("dotenv").config();
 // store all other necessary node packages in variables to use throughout 
 var keys = require("./keys.js");
 var moment = require("moment");
-var Spotify = require("node-spotify-api");
+// var Spotify = require("node-spotify-api");
 var axios = require("axios");
 
 // allows us to use special keys from keys.js 
-var spotify = new Spotify(keys.spotify);
+// var spotify = new Spotify(keys.spotify);
 
 // =====================USER INPUT & SWITCH CASES TO CALL FUNCTIONS=============================
 // (referenced in class activity 15-BankJS):
@@ -36,44 +36,54 @@ switch (action) {
         break;
 
     default:
-        console.log("Please check your command!");
+        console.log("Please check your command -- I don't understand!");
 }
 
 // =====================FUNCTIONS=============================
 // (adapted from in class activities)
 
 function concert() {
-    var artist = process.argv[3];
+    var artistName = process.argv[3];
 
-    axios.get("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp")
-        .then(function (response) {
-            console.log(response.data);
+    var qURL = "https://rest.bandsintown.com/artists/" + artistName + "/events?app_id=codingbootcamp";
+    // console.log(qURL);
 
-            // loop through response.data.legnth to display:
-                // 1. name of venue
-                    // console.log("Venue " + response.data.venue.nameorsomething);
-                // 2. venue location
-                    // console.log("Venue Location: " + response.data.venue.locationorsomething);
-                // 3. date of the event 
-                    // (use moment to format at MM/DD/YYYY)
-                        // store response.data.dateorwhater in variable
-                            // var date = moment(response.data.dateorwhatever).format("MM/DD/YYYY");
-                    // console.log("Date: " + date);
-        })
+    axios.get(qURL).then(function (response) {
+        // console.log(response.data);
+
+        // loop through response.data.legnth to display:
+        for (var i = 0; i < response.data.length; i++) {
+            // display artist name
+            console.log("Artist: " + artistName);
+            // display line-up
+            console.log("Lineup: " + response.data[i].lineup);
+            // 1. name of venue
+            console.log("Venue: " + response.data[i].venue.name);
+            // 2. venue location
+            console.log("Location: " + response.data[i].venue.city);
+            // 3. date of the event (MM/DD/YYYY)
+            var date = moment(response.data[i].datetime).format("MM/DD/YYYY");
+            console.log("Date: " + date);
+            console.log("---------------------------");
+        }
+    })
+        .catch(function (error) {
+            console.log(error.response);
+        });
 }
 
 
-function spotify () {
+// function spotify () {
 
-}
+// }
 
-function movie () {
+// function movie () {
 
-}
+// }
 
-function doWhat () {
-    
-}
+// function doWhat () {
+
+// }
 
 
 
