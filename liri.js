@@ -95,7 +95,7 @@ function spotifyThis() {
 
     // if user doesn't input a song, default to 'The Sign' by Ace of Base
     // put artist instead of song -- fellow colleagues identified the problem that using the song name 'The Sign' did not result in Ace of Base as the artist 
-    if (!process.argv[3]) {
+    if (!song) {
         song = 'Ace of Base';
     }
 
@@ -118,11 +118,16 @@ function spotifyThis() {
 }
 
 function movie() {
+    // var movie = process.argv[3].split(" ").join("+");
     var movie = process.argv[3];
+
+    if (!movie) {
+        movie = "Mr.Nobody";
+    }
 
     // query URL for OMDB via documentation (http://omdbapi.com/)
     var qURL = "http://www.omdbapi.com/?apikey=trilogy&t=" + movie;
-    // console.log(qURL);
+    console.log(qURL);
 
     // make GET request adapted from axios documentation (https://www.npmjs.com/package/axios)
     axios.get(qURL).then(function (response) {
