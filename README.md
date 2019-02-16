@@ -4,7 +4,8 @@ LIRI is a command line node app that searches Spotify for songs, Bands in Town f
 ## How to Install & Use On Your Own Local Computer
 1. Create a new GitHub repository 
 2. Clone this repository onto your own local computer
-3. In terminal, navigate to the root of your project and install the following node packages.  Install quickly by doing a `npm install`:
+3. In terminal, navigate to the root of your project and run a general `npm install` to install the necessary node packages listed below for this app to work, all of which are saved within my `package-lock.json` to make it an easy install for you!
+
     * <a href="https://www.npmjs.com/package/node-spotify-api" target="_blank">Node-Spotify-API</a>
         * **NOTE:** The Spotify API will require your own **client id** and a **client secret** code (see below for more detailed instructions)
     * <a href="https://www.npmjs.com/package/moment" target="_blank">Moment</a>
