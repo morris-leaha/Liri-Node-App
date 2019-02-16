@@ -48,6 +48,7 @@ function concert() {
     var qURL = "https://rest.bandsintown.com/artists/" + artistName + "/events?app_id=codingbootcamp";
     // console.log(qURL);
 
+    // make GET request adapted from axios documentation (https://www.npmjs.com/package/axios)
     axios.get(qURL).then(function (response) {
         // console.log(response.data);
 
@@ -66,7 +67,7 @@ function concert() {
             var date = moment(response.data[i].datetime).format("MM/DD/YYYY");
             console.log("Date: " + date);
             console.log("---------------------------");
-            
+
         }
     })
         .catch(function (error) { // handling errors per axios documentation (https://www.npmjs.com/package/axios)
@@ -93,7 +94,7 @@ function spotifyThis() {
     var song = process.argv[3];
 
     // if user doesn't input a song, default to 'The Sign' by Ace of Base
-    // put artist instead of song per fellow colleagues 
+    // put artist instead of song -- fellow colleagues identified the problem that using the song name 'The Sign' did not result in Ace of Base as the artist 
     if (!process.argv[3]) {
         song = 'Ace of Base';
     }
@@ -116,9 +117,57 @@ function spotifyThis() {
     });
 }
 
-// function movie () {
-//     var 
-// }
+function movie() {
+    var movie = process.argv[3];
+
+    // query URL for OMDB via documentation (http://omdbapi.com/)
+    var qURL = "http://www.omdbapi.com/?apikey=trilogy&t=" + movie;
+    // console.log(qURL);
+
+    // make GET request adapted from axios documentation (https://www.npmjs.com/package/axios)
+    axios.get(qURL).then(function (response) {
+        // console.log(response.data);
+
+        console.log("---------------------------");
+        // 1. title of movie
+        console.log("Title: " + response.data.Title);
+        // 2. year movie came out
+        console.log("Release Year: " + response.data.Year);
+        // 3. IMDB rating
+        console.log("IMDB Rating: " + response.data.imdbRating);
+        // 4. Rotten Tomatoes rating
+        console.log("Rotten Tomatoes Rating: " + response.data.Ratings[1].Value);
+        // 5. Country movie was produced in
+        console.log("Produced in: " + response.data.Country);
+        // 6. language of movie
+        console.log("Language: " + response.data.Language);
+        // 7. plot
+        console.log("Plot: " + response.data.Plot);
+        // 8. actors
+        console.log("Actors: " + response.data.Actors);
+        console.log("---------------------------");
+
+    })
+        .catch(function (error) { // handling errors per axios documentation (https://www.npmjs.com/package/axios)
+            if (error.response) {
+                // The request was made and the server responded with a status code
+                // that falls out of the range of 2xx
+                console.log(error.response.data);
+                console.log(error.response.status);
+                console.log(error.response.headers);
+            } else if (error.request) {
+                // The request was made but no response was received
+                // `error.request` is an instance of XMLHttpRequest in the browser and an instance of
+                // http.ClientRequest in node.js
+                console.log(error.request);
+            } else {
+                // Something happened in setting up the request that triggered an Error
+                console.log('Error', error.message);
+            }
+            console.log(error.config);
+        });
+
+}
 
 // function doWhat () {
 
