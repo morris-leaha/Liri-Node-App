@@ -1,0 +1,220 @@
+------------
+Command: do-what-it-says
+Search term: "I Want it That Way"
+Artist: Backstreet Boys
+Song: I Want It That Way
+Album: The Hits--Chapter One
+Spotify URL: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
+------------------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake,Tory Lanez
+Venue: Manchester Arena
+Location: Manchester
+Date: 03/10/2019
+------------------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake,Tory Lanez
+Venue: Manchester Arena
+Location: Manchester
+Date: 03/11/2019
+------------------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake
+Venue: ACCORHOTELS ARENA
+Location: Paris
+Date: 03/13/2019
+------------------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake
+Venue: 3Arena
+Location: Dublin
+Date: 03/19/2019
+------------------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake
+Venue: 3Arena
+Location: Dublin
+Date: 03/21/2019
+------------------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake
+Venue: 3Arena
+Location: Dublin
+Date: 03/22/2019
+------------------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake,Tory Lanez
+Venue: Resorts World Arena
+Location: Birmingham
+Date: 03/26/2019
+------------------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake,Tory Lanez
+Venue: Resorts World Arena
+Location: Birmingham
+Date: 03/27/2019
+------------------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake,Tory Lanez
+Venue: Resorts World Arena
+Location: Birmingham
+Date: 03/28/2019
+------------------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake
+Venue: The O2 Arena
+Location: London
+Date: 04/01/2019
+------------------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake
+Venue: The O2 Arena
+Location: London
+Date: 04/02/2019
+------------------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake
+Venue: The O2 Arena
+Location: London
+Date: 04/04/2019
+------------------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake,Tory Lanez
+Venue: The O2
+Location: London
+Date: 04/05/2019
+------------------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake,Tory Lanez
+Venue: The O2
+Location: London
+Date: 04/08/2019
+------------------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake
+Venue: The O2 Arena
+Location: London
+Date: 04/09/2019
+------------------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake
+Venue: The O2 Arena
+Location: London
+Date: 04/11/2019
+------------------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake
+Venue: SPORTPALEIS
+Location: Merksem
+Date: 04/19/2019
+------------------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake
+Venue: Ziggo Dome
+Location: Amsterdam
+Date: 04/23/2019
+------------------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake
+Venue: Ziggo Dome
+Location: Amsterdam
+Date: 04/25/2019
+------------------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake
+Venue: Ziggo Dome
+Location: Amsterdam
+Date: 04/26/2019
+------------------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake,Nickelback,Red Hot Chili Peppers,Muse,Bon Jovi,Slayer,Megadeth,Iron Maiden,Scorpions,Sepultura,Seal,King Crimson,Os Paralamas do Sucesso,Imagine Dragons,Jessie J,Charlie Puth,Black Eyed Peas -,Anitta,P!nk
+Venue: Cidade do Rock
+Location: Rio De Janeiro
+Date: 09/27/2019
+------------------------
+Command: spotify-this-song
+Search term: Ace of Base
+Artist: Ace of Base
+Song: The Sign
+Album: The Sign (US Album) [Remastered]
+Spotify URL: https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE
+------------------------
+Command: spotify-this-song
+Search term: Time
+Artist: Ariana Grande
+Song: One Last Time
+Album: My Everything (Deluxe)
+Spotify URL: https://open.spotify.com/track/7xoUc6faLbCqZO6fQEYprd
+------------------------
+Command: movie-this
+Search term: Mr.Nobody
+Title: Mr. Nobody
+Release Year: 2009
+IMDB Rating: 7.8
+Rotten Tomatoes Rating: 67%
+Produced in: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+------------------------
+Command: movie-this
+Search term: Cinderella
+Title: Cinderella
+Release Year: 2015
+IMDB Rating: 6.9
+Rotten Tomatoes Rating: 84%
+Produced in: USA, UK
+Language: English
+Plot: When her father unexpectedly dies, young Ella finds herself at the mercy of her cruel stepmother and her scheming stepsisters. Never one to give up hope, Ella's fortunes begin to change after meeting a dashing stranger.
+Actors: Cate Blanchett, Lily James, Richard Madden, Helena Bonham Carter
+-----------------------------------------
+Command: movie-this
+Search term: Cinderella
+Title: Cinderella
+Release Year: 2015
+IMDB Rating: 6.9
+Rotten Tomatoes Rating: 84%
+Produced in: USA, UK
+Language: English
+Plot: When her father unexpectedly dies, young Ella finds herself at the mercy of her cruel stepmother and her scheming stepsisters. Never one to give up hope, Ella's fortunes begin to change after meeting a dashing stranger.
+Actors: Cate Blanchett, Lily James, Richard Madden, Helena Bonham Carter
+----------------------------------------------------------
+Command: movie-this
+Search term: Cinderella
+Title: Cinderella
+Release Year: 2015
+IMDB Rating: 6.9
+Rotten Tomatoes Rating: 84%
+Produced in: USA, UK
+Language: English
+Plot: When her father unexpectedly dies, young Ella finds herself at the mercy of her cruel stepmother and her scheming stepsisters. Never one to give up hope, Ella's fortunes begin to change after meeting a dashing stranger.
+Actors: Cate Blanchett, Lily James, Richard Madden, Helena Bonham Carter
+----------------------------------------------------------
+Command: spotify-this-song
+Search term: Time
+Artist: Ariana Grande
+Song: One Last Time
+Album: My Everything (Deluxe)
+Spotify URL: https://open.spotify.com/track/7xoUc6faLbCqZO6fQEYprd
+-----------------------------

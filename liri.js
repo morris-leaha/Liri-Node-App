@@ -58,15 +58,22 @@ function concert() {
             // display artist name
             console.log("Artist: " + artistName);
             // display line-up
-            console.log("Lineup: " + response.data[i].lineup);
+            var lineUp = response.data[i].lineup;
+            console.log("Lineup: " + lineUp);
             // 1. name of venue
-            console.log("Venue: " + response.data[i].venue.name);
+            var venueName = response.data[i].venue.name;
+            console.log("Venue: " + venueName);
             // 2. venue location
-            console.log("Location: " + response.data[i].venue.city);
+            var venueLocation = response.data[i].venue.city;
+            console.log("Location: " + venueLocation);
             // 3. date of the event (MM/DD/YYYY)
             var date = moment(response.data[i].datetime).format("MM/DD/YYYY");
             console.log("Date: " + date);
             console.log("---------------------------");
+
+            // output data to log.txt
+            var result = ("Artist: " + artistName + "\n" + "Lineup: " + lineUp + "\n" + "Venue: " + venueName + "\n" + "Location: " + venueLocation + "\n" + "Date: " + date);
+            writeData(action, result);
 
         }
     })
@@ -91,29 +98,37 @@ function concert() {
 }
 
 function spotifyThis() {
-    var song = process.argv[3];
+    var songInput = process.argv[3];
 
     // if user doesn't input a song, default to 'The Sign' by Ace of Base
     // put artist instead of song -- fellow colleagues identified the problem that using the song name 'The Sign' did not result in Ace of Base as the artist 
-    if (!song) {
-        song = 'Ace of Base';
+    if (!songInput) {
+        songInput = 'Ace of Base';
     }
 
     // search node-spotify-api per documentation (https://www.npmjs.com/package/node-spotify-api)
-    spotify.search({ type: 'track', query: song }, function (err, data) {
+    spotify.search({ type: 'track', query: songInput }, function (err, data) {
         if (err) {
             return console.log('Error occurred: ' + err);
         }
         console.log("---------------------------");
         // 1. display artist name
-        console.log("Artist: " + data.tracks.items[0].album.artists[0].name);
+        var artist = data.tracks.items[0].album.artists[0].name;
+        console.log("Artist: " + artist);
         // 2. display song name
-        console.log("Song: " + data.tracks.items[0].name);
+        var songTitle = data.tracks.items[0].name;
+        console.log("Song: " + songTitle);
         // 3. display the album
-        console.log("Album: " + data.tracks.items[0].album.name);
+        var albumTitle = data.tracks.items[0].album.name;
+        console.log("Album: " + albumTitle);
         // 4. display link to preview song on spotify
-        console.log("Preview song on spotify here: " + data.tracks.items[0].external_urls.spotify);
+        var spotifyURL = data.tracks.items[0].external_urls.spotify;
+        console.log("Preview song on spotify here: " + spotifyURL);
         console.log("---------------------------");
+
+        // output data to log.txt
+        var result = ("Search term: " + songInput + "\n" + "Artist: " + artist + "\n" + "Song: " + songTitle + "\n" + "Album: " + albumTitle + "\n" + "Spotify URL: " + spotifyURL);
+        writeData(action, result);
     });
 }
 
@@ -135,22 +150,34 @@ function movie() {
 
         console.log("---------------------------");
         // 1. title of movie
-        console.log("Title: " + response.data.Title);
+        var movieTitle = response.data.Title;
+        console.log("Title: " + movieTitle);
         // 2. year movie came out
-        console.log("Release Year: " + response.data.Year);
+        var releaseYear = response.data.Year;
+        console.log("Release Year: " + releaseYear);
         // 3. IMDB rating
-        console.log("IMDB Rating: " + response.data.imdbRating);
+        var rateIMDB = response.data.imdbRating;
+        console.log("IMDB Rating: " + rateIMDB);
         // 4. Rotten Tomatoes rating
-        console.log("Rotten Tomatoes Rating: " + response.data.Ratings[1].Value);
+        var rateRotten = response.data.Ratings[1].Value;
+        console.log("Rotten Tomatoes Rating: " + rateRotten);
         // 5. Country movie was produced in
-        console.log("Produced in: " + response.data.Country);
+        var country = response.data.Country;
+        console.log("Produced in: " + country);
         // 6. language of movie
-        console.log("Language: " + response.data.Language);
+        var language = response.data.Language;
+        console.log("Language: " + language);
         // 7. plot
-        console.log("Plot: " + response.data.Plot);
+        var plot = response.data.Plot;
+        console.log("Plot: " + plot);
         // 8. actors
-        console.log("Actors: " + response.data.Actors);
+        var actors = response.data.Actors;
+        console.log("Actors: " + actors);
         console.log("---------------------------");
+
+        // output data to log.txt
+        var result = ("Search term: " + movie + "\n" + "Title: " + movieTitle + "\n" + "Release Year: " + releaseYear + "\n" + "IMDB Rating: " + rateIMDB + "\n" + "Rotten Tomatoes Rating: " + rateRotten + "\n" + "Produced in: " + country + "\n" + "Language: " + language + "\n" + "Plot: " + plot + "\n" + "Actors: " + actors);
+        writeData(action, result);
 
     })
         .catch(function (error) { // handling errors per axios documentation (https://www.npmjs.com/package/axios)
@@ -183,15 +210,32 @@ function doWhat () {
         }
         // split text (at comma) and put into an array --> store in variable
         var dataArr = data.split(",");
-        console.log(dataArr);
+        // console.log(dataArr);
 
+        // action = dataArr[0]; (uncomment if you want command in log.txt to be 'spotify-this-song')
         process.argv[3] = dataArr[1]; // set "I Want it That Way" text (at index 1 of dataArr) to be "search term"
-        process.argv[2] = dataArr[0];
 
         if (dataArr[0] === 'spotify-this-song') {
             spotifyThis(process.argv[3]);
         }
     });
+}
+
+
+// =====================LOG ANSWERS=============================
+// (adapted from in class activity 14-AppendFile)
+
+function writeData (action, result) {
+    var fs = require("fs");
+    var text = ("\n" + "------------" + "\n" + "Command: " + action + "\n" + result + "\n" + "------------" + "\n");
+
+    fs.appendFile("log.txt", text, function(error) {
+        if (error) {
+            console.log(error);
+        } else {
+            console.log("Your results were added!");
+        }
+    })
 }
 
 
