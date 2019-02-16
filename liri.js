@@ -92,6 +92,12 @@ function concert() {
 function spotifyThis() {
     var song = process.argv[3];
 
+    // if user doesn't input a song, default to 'The Sign' by Ace of Base
+    // put artist instead of song per fellow colleagues 
+    if (!process.argv[3]) {
+        song = 'Ace of Base';
+    }
+
     // search node-spotify-api per documentation (https://www.npmjs.com/package/node-spotify-api)
     spotify.search({ type: 'track', query: song }, function (err, data) {
         if (err) {
@@ -111,7 +117,7 @@ function spotifyThis() {
 }
 
 // function movie () {
-
+//     var 
 // }
 
 // function doWhat () {
