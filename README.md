@@ -82,7 +82,7 @@ You should be able to run LIRI by using the following command line codes:
 
     * ![Do-What-It-Says](images/do-what-it-says.gif) 
 
-**NOTE:** All returned and displayed data from the command line will be stored and appended within the `log.txt` file.
+**NOTE:** All returned and displayed data from the command line will be stored and appended within the `log.txt` file -- go check it out!
 
 
 
