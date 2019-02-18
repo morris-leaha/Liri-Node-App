@@ -58,7 +58,7 @@ You should be able to run LIRI by using the following command line codes:
         * Album the song is on
         * Link to spotify for preview of song
         ```
-    *![Spotify-this-song](images/spotify-this-song.gif) 
+    * ![Spotify-this-song](images/spotify-this-song.gif) 
     
 3. `node liri.js movie-this <movie name here>`
    * This will search the OMBD API and render the following information about each movie to your terminal/bash:
