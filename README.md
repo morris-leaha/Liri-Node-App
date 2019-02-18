@@ -48,6 +48,8 @@ You should be able to run LIRI by using the following command line codes:
         * Venue location
         * Date of the Event ("MM/DD/YYYY")
         ```
+   * ![Concert-This](images/concert-this.gif)        
+        
 2. `node liri.js spotify-this-song <song name here>`
    * This will search the Spotify API and render the following information about each song to your terminal/bash:
         ```
