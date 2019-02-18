@@ -1,4 +1,3 @@
-
 ------------
 Command: concert-this
 Artist: Drake
@@ -7,7 +6,6 @@ Venue: Manchester Arena
 Location: Manchester
 Date: 03/10/2019
 ------------
-
 ------------
 Command: concert-this
 Artist: Drake
@@ -16,7 +14,6 @@ Venue: Manchester Arena
 Location: Manchester
 Date: 03/11/2019
 ------------
-
 ------------
 Command: concert-this
 Artist: Drake
@@ -25,7 +22,6 @@ Venue: ACCORHOTELS ARENA
 Location: Paris
 Date: 03/13/2019
 ------------
-
 ------------
 Command: concert-this
 Artist: Drake
@@ -34,7 +30,6 @@ Venue: 3Arena
 Location: Dublin
 Date: 03/19/2019
 ------------
-
 ------------
 Command: concert-this
 Artist: Drake
@@ -43,7 +38,6 @@ Venue: 3Arena
 Location: Dublin
 Date: 03/21/2019
 ------------
-
 ------------
 Command: concert-this
 Artist: Drake
@@ -52,7 +46,6 @@ Venue: 3Arena
 Location: Dublin
 Date: 03/22/2019
 ------------
-
 ------------
 Command: concert-this
 Artist: Drake
@@ -61,7 +54,6 @@ Venue: Resorts World Arena
 Location: Birmingham
 Date: 03/26/2019
 ------------
-
 ------------
 Command: concert-this
 Artist: Drake
@@ -70,7 +62,6 @@ Venue: Resorts World Arena
 Location: Birmingham
 Date: 03/27/2019
 ------------
-
 ------------
 Command: concert-this
 Artist: Drake
@@ -79,7 +70,6 @@ Venue: Resorts World Arena
 Location: Birmingham
 Date: 03/28/2019
 ------------
-
 ------------
 Command: concert-this
 Artist: Drake
@@ -88,7 +78,6 @@ Venue: The O2 Arena
 Location: London
 Date: 04/01/2019
 ------------
-
 ------------
 Command: concert-this
 Artist: Drake
@@ -97,7 +86,6 @@ Venue: The O2 Arena
 Location: London
 Date: 04/02/2019
 ------------
-
 ------------
 Command: concert-this
 Artist: Drake
@@ -106,7 +94,6 @@ Venue: The O2 Arena
 Location: London
 Date: 04/04/2019
 ------------
-
 ------------
 Command: concert-this
 Artist: Drake
@@ -115,7 +102,6 @@ Venue: The O2
 Location: London
 Date: 04/05/2019
 ------------
-
 ------------
 Command: concert-this
 Artist: Drake
@@ -124,7 +110,6 @@ Venue: The O2
 Location: London
 Date: 04/08/2019
 ------------
-
 ------------
 Command: concert-this
 Artist: Drake
@@ -133,7 +118,6 @@ Venue: The O2 Arena
 Location: London
 Date: 04/09/2019
 ------------
-
 ------------
 Command: concert-this
 Artist: Drake
@@ -142,7 +126,6 @@ Venue: The O2 Arena
 Location: London
 Date: 04/11/2019
 ------------
-
 ------------
 Command: concert-this
 Artist: Drake
@@ -151,7 +134,6 @@ Venue: SPORTPALEIS
 Location: Merksem
 Date: 04/19/2019
 ------------
-
 ------------
 Command: concert-this
 Artist: Drake
@@ -160,7 +142,6 @@ Venue: Ziggo Dome
 Location: Amsterdam
 Date: 04/23/2019
 ------------
-
 ------------
 Command: concert-this
 Artist: Drake
@@ -169,7 +150,6 @@ Venue: Ziggo Dome
 Location: Amsterdam
 Date: 04/25/2019
 ------------
-
 ------------
 Command: concert-this
 Artist: Drake
@@ -178,509 +158,347 @@ Venue: Ziggo Dome
 Location: Amsterdam
 Date: 04/26/2019
 ------------
-
 ------------
 Command: concert-this
 Artist: Drake
-Lineup: Drake,Nickelback,Red Hot Chili Peppers,Muse,Bon Jovi,Slayer,Megadeth,Iron Maiden,Scorpions,Sepultura,Seal,King Crimson,Os Paralamas do Sucesso,Imagine Dragons,Jessie J,Charlie Puth,Black Eyed Peas -,Anitta,P!nk
+Lineup: Drake,Nickelback,Red Hot Chili Peppers,Muse,Dave Matthews Band,Bon Jovi,Slayer,Megadeth,Iron Maiden,Scorpions,Sepultura,Seal,King Crimson,Os Paralamas do Sucesso,Imagine Dragons,Jessie J,Charlie Puth,Black Eyed Peas -,Anitta,P!nk
 Venue: Cidade do Rock
 Location: Rio De Janeiro
 Date: 09/27/2019
 ------------
-
-------------
-Command: spotify-this-song
-Search term: Ace of Base
-Artist: Ace of Base
-Song: The Sign
-Album: The Sign (US Album) [Remastered]
-Spotify URL: https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE
-------------
-
-------------
-Command: spotify-this-song
-Search term: Time
-Artist: Ariana Grande
-Song: One Last Time
-Album: My Everything (Deluxe)
-Spotify URL: https://open.spotify.com/track/7xoUc6faLbCqZO6fQEYprd
-------------
-
-------------
-Command: movie-this
-Search term: Mr.Nobody
-Title: Mr. Nobody
-Release Year: 2009
-IMDB Rating: 7.8
-Rotten Tomatoes Rating: 67%
-Produced in: Belgium, Germany, Canada, France, USA, UK
-Language: English, Mohawk
-Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
-Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
-------------
-
-------------
-Command: movie-this
-Search term: Cinderella
-Title: Cinderella
-Release Year: 2015
-IMDB Rating: 6.9
-Rotten Tomatoes Rating: 84%
-Produced in: USA, UK
-Language: English
-Plot: When her father unexpectedly dies, young Ella finds herself at the mercy of her cruel stepmother and her scheming stepsisters. Never one to give up hope, Ella's fortunes begin to change after meeting a dashing stranger.
-Actors: Cate Blanchett, Lily James, Richard Madden, Helena Bonham Carter
-------------
-
-------------
-Command: do-what-it-says
-Search term: "I Want it That Way"
-Artist: Backstreet Boys
-Song: I Want It That Way
-Album: The Hits--Chapter One
-Spotify URL: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
-------------
-------------
-Command: do-what-it-says
-Search term: "I Want it That Way"
-Artist: Backstreet Boys
-Song: I Want It That Way
-Album: The Hits--Chapter One
-Spotify URL: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
-------------
-------------
-Command: movie-this
-Search term: Cinderella
-Title: Cinderella
-Release Year: 2015
-IMDB Rating: 6.9
-Rotten Tomatoes Rating: 84%
-Produced in: USA, UK
-Language: English
-Plot: When her father unexpectedly dies, young Ella finds herself at the mercy of her cruel stepmother and her scheming stepsisters. Never one to give up hope, Ella's fortunes begin to change after meeting a dashing stranger.
-Actors: Cate Blanchett, Lily James, Richard Madden, Helena Bonham Carter
-------------
-------------
-Command: movie-this
-Search term: The
-Title: The Shawshank Redemption
-Release Year: 1994
-IMDB Rating: 9.3
-Rotten Tomatoes Rating: 91%
-Produced in: USA
-Language: English
-Plot: Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.
-Actors: Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler
-------------
-------------
-Command: movie-this
-Search term: The Dark Knight
-Title: The Dark Knight
-Release Year: 2008
-IMDB Rating: 9.0
-Rotten Tomatoes Rating: 94%
-Produced in: USA, UK
-Language: English, Mandarin
-Plot: When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.
-Actors: Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine
-------------
-------------
-Command: movie-this
-Search term: The Dark Knight
-Title: The Dark Knight
-Release Year: 2008
-IMDB Rating: 9.0
-Rotten Tomatoes Rating: 94%
-Produced in: USA, UK
-Language: English, Mandarin
-Plot: When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.
-Actors: Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine
-------------
-------------
-Command: movie-this
-Search term: The+Dark+Knight
-Title: The Dark Knight
-Release Year: 2008
-IMDB Rating: 9.0
-Rotten Tomatoes Rating: 94%
-Produced in: USA, UK
-Language: English, Mandarin
-Plot: When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.
-Actors: Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine
-------------
-------------
-Command: spotify-this-song
-Search term: Get+Low
-Artist: Lil Jon & The East Side Boyz
-Song: Get Low
-Album: Kings Of Crunk
-Spotify URL: https://open.spotify.com/track/0r2Bul2NuCViraT2zX1l5j
-------------
-------------
-Command: spotify-this-song
-Search term: Get
-Artist: Daniel Caesar
-Song: Get You (feat. Kali Uchis)
-Album: Freudian
-Spotify URL: https://open.spotify.com/track/7zFXmv6vqI4qOt4yGf3jYZ
-------------
-------------
-Command: spotify-this-song
-Search term: Get+Low
-Artist: Lil Jon & The East Side Boyz
-Song: Get Low
-Album: Kings Of Crunk
-Spotify URL: https://open.spotify.com/track/0r2Bul2NuCViraT2zX1l5j
-------------
 ------------
 Command: concert-this
-Artist: Justin+Timberlake
-Lineup: Justin Timberlake
-Venue: Moda Center
-Location: Portland
-Date: 02/18/2019
-------------
-------------
-Command: concert-this
-Artist: Justin+Timberlake
-Lineup: Justin Timberlake
-Venue: Pechanga Arena San Diego
-Location: San Diego
-Date: 02/21/2019
-------------
-------------
-Command: concert-this
-Artist: Justin+Timberlake
-Lineup: Justin Timberlake
-Venue: Honda Center
-Location: Anaheim
-Date: 02/22/2019
-------------
-------------
-Command: concert-this
-Artist: Justin+Timberlake
-Lineup: Justin Timberlake
-Venue: Golden 1 Center
-Location: Sacramento
-Date: 02/24/2019
-------------
-------------
-Command: concert-this
-Artist: Justin+Timberlake
-Lineup: Justin Timberlake
-Venue: Talking Stick Resort Arena
-Location: Phoenix
-Date: 03/05/2019
-------------
-------------
-Command: concert-this
-Artist: Justin+Timberlake
-Lineup: Justin Timberlake
-Venue: T-Mobile Arena
-Location: Las Vegas
-Date: 03/08/2019
-------------
-------------
-Command: concert-this
-Artist: Justin+Timberlake
-Lineup: Justin Timberlake
-Venue: Staples Center
-Location: Los Angeles
+Artist: Drake
+Lineup: Drake,Tory Lanez
+Venue: Manchester Arena
+Location: Manchester
 Date: 03/10/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin+Timberlake
-Lineup: Justin Timberlake
-Venue: Save Mart Center
-Location: Fresno
+Artist: Drake
+Lineup: Drake,Tory Lanez
+Venue: Manchester Arena
+Location: Manchester
+Date: 03/11/2019
+------------
+------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake
+Venue: ACCORHOTELS ARENA
+Location: Paris
 Date: 03/13/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin+Timberlake
-Lineup: Justin Timberlake
-Venue: Oracle Arena
-Location: Oakland
-Date: 03/15/2019
+Artist: Drake
+Lineup: Drake
+Venue: 3Arena
+Location: Dublin
+Date: 03/19/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin+Timberlake
-Lineup: Justin Timberlake
-Venue: Sprint Center
-Location: Kansas City
+Artist: Drake
+Lineup: Drake
+Venue: 3Arena
+Location: Dublin
 Date: 03/21/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin+Timberlake
-Lineup: Justin Timberlake
-Venue: CHI Health Center Omaha
-Location: Omaha
-Date: 03/23/2019
+Artist: Drake
+Lineup: Drake
+Venue: 3Arena
+Location: Dublin
+Date: 03/22/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin+Timberlake
-Lineup: Justin Timberlake
-Venue: Little Caesars Arena
-Location: Detroit
-Date: 03/25/2019
+Artist: Drake
+Lineup: Drake,Tory Lanez
+Venue: Resorts World Arena
+Location: Birmingham
+Date: 03/26/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin+Timberlake
-Lineup: Justin Timberlake
-Venue: Enterprise Center
-Location: Saint Louis
+Artist: Drake
+Lineup: Drake,Tory Lanez
+Venue: Resorts World Arena
+Location: Birmingham
+Date: 03/27/2019
+------------
+------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake,Tory Lanez
+Venue: Resorts World Arena
+Location: Birmingham
 Date: 03/28/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin+Timberlake
-Lineup: Justin Timberlake
-Venue: Nationwide Arena
-Location: Columbus
-Date: 03/31/2019
+Artist: Drake
+Lineup: Drake
+Venue: The O2 Arena
+Location: London
+Date: 04/01/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin+Timberlake
-Lineup: Justin Timberlake
-Venue: Bankers Life Fieldhouse
-Location: Indianapolis
+Artist: Drake
+Lineup: Drake
+Venue: The O2 Arena
+Location: London
 Date: 04/02/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin+Timberlake
-Lineup: Justin Timberlake
-Venue: Van Andel Arena
-Location: Grand Rapids
+Artist: Drake
+Lineup: Drake
+Venue: The O2 Arena
+Location: London
 Date: 04/04/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin+Timberlake
-Lineup: Justin Timberlake
-Venue: KeyBank Center
-Location: Buffalo
-Date: 04/06/2019
+Artist: Drake
+Lineup: Drake,Tory Lanez
+Venue: The O2
+Location: London
+Date: 04/05/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin+Timberlake
-Lineup: Justin Timberlake
-Venue: Wells Fargo Center
-Location: Philadelphia
+Artist: Drake
+Lineup: Drake,Tory Lanez
+Venue: The O2
+Location: London
+Date: 04/08/2019
+------------
+------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake
+Venue: The O2 Arena
+Location: London
 Date: 04/09/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin+Timberlake
-Lineup: Justin Timberlake
-Venue: Mohegan Sun Arena
-Location: Uncasville
-Date: 04/12/2019
+Artist: Drake
+Lineup: Drake
+Venue: The O2 Arena
+Location: London
+Date: 04/11/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin+Timberlake
-Lineup: Justin Timberlake
-Venue: Mohegan Sun Arena
-Location: Uncasville
-Date: 04/13/2019
+Artist: Drake
+Lineup: Drake
+Venue: SPORTPALEIS
+Location: Merksem
+Date: 04/19/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin
-Lineup: Justin
-Venue: Grace City Church
-Location: Bourbon
-Date: 02/22/2019
+Artist: Drake
+Lineup: Drake
+Venue: Ziggo Dome
+Location: Amsterdam
+Date: 04/23/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin
-Lineup: Justin
-Venue: Crest Theatre
-Location: Sacramento
-Date: 03/15/2019
+Artist: Drake
+Lineup: Drake
+Venue: Ziggo Dome
+Location: Amsterdam
+Date: 04/25/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin Timberlake
-Lineup: Justin Timberlake
-Venue: Rogers Arena
-Location: Vancouver
-Date: 02/14/2019
+Artist: Drake
+Lineup: Drake
+Venue: Ziggo Dome
+Location: Amsterdam
+Date: 04/26/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin Timberlake
-Lineup: Justin Timberlake
-Venue: Rogers Arena
-Location: Vancouver
-Date: 02/15/2019
+Artist: Drake
+Lineup: Drake,Nickelback,Red Hot Chili Peppers,Muse,Dave Matthews Band,Bon Jovi,Slayer,Megadeth,Iron Maiden,Scorpions,Sepultura,Seal,King Crimson,Os Paralamas do Sucesso,Imagine Dragons,Jessie J,Charlie Puth,Black Eyed Peas -,Anitta,P!nk
+Venue: Cidade do Rock
+Location: Rio De Janeiro
+Date: 09/27/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin Timberlake
-Lineup: Justin Timberlake
-Venue: Moda Center
-Location: Portland
-Date: 02/18/2019
-------------
-------------
-Command: concert-this
-Artist: Justin Timberlake
-Lineup: Justin Timberlake
-Venue: Pechanga Arena San Diego
-Location: San Diego
-Date: 02/21/2019
-------------
-------------
-Command: concert-this
-Artist: Justin Timberlake
-Lineup: Justin Timberlake
-Venue: Honda Center
-Location: Anaheim
-Date: 02/22/2019
-------------
-------------
-Command: concert-this
-Artist: Justin Timberlake
-Lineup: Justin Timberlake
-Venue: Golden 1 Center
-Location: Sacramento
-Date: 02/24/2019
-------------
-------------
-Command: concert-this
-Artist: Justin Timberlake
-Lineup: Justin Timberlake
-Venue: Talking Stick Resort Arena
-Location: Phoenix
-Date: 03/05/2019
-------------
-------------
-Command: concert-this
-Artist: Justin Timberlake
-Lineup: Justin Timberlake
-Venue: T-Mobile Arena
-Location: Las Vegas
-Date: 03/08/2019
-------------
-------------
-Command: concert-this
-Artist: Justin Timberlake
-Lineup: Justin Timberlake
-Venue: Staples Center
-Location: Los Angeles
+Artist: Drake
+Lineup: Drake,Tory Lanez
+Venue: Manchester Arena
+Location: Manchester
 Date: 03/10/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin Timberlake
-Lineup: Justin Timberlake
-Venue: Save Mart Center
-Location: Fresno
+Artist: Drake
+Lineup: Drake,Tory Lanez
+Venue: Manchester Arena
+Location: Manchester
+Date: 03/11/2019
+------------
+------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake
+Venue: ACCORHOTELS ARENA
+Location: Paris
 Date: 03/13/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin Timberlake
-Lineup: Justin Timberlake
-Venue: Oracle Arena
-Location: Oakland
-Date: 03/15/2019
+Artist: Drake
+Lineup: Drake
+Venue: 3Arena
+Location: Dublin
+Date: 03/19/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin Timberlake
-Lineup: Justin Timberlake
-Venue: Sprint Center
-Location: Kansas City
+Artist: Drake
+Lineup: Drake
+Venue: 3Arena
+Location: Dublin
 Date: 03/21/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin Timberlake
-Lineup: Justin Timberlake
-Venue: CHI Health Center Omaha
-Location: Omaha
-Date: 03/23/2019
+Artist: Drake
+Lineup: Drake
+Venue: 3Arena
+Location: Dublin
+Date: 03/22/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin Timberlake
-Lineup: Justin Timberlake
-Venue: Little Caesars Arena
-Location: Detroit
-Date: 03/25/2019
+Artist: Drake
+Lineup: Drake,Tory Lanez
+Venue: Resorts World Arena
+Location: Birmingham
+Date: 03/26/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin Timberlake
-Lineup: Justin Timberlake
-Venue: Enterprise Center
-Location: Saint Louis
+Artist: Drake
+Lineup: Drake,Tory Lanez
+Venue: Resorts World Arena
+Location: Birmingham
+Date: 03/27/2019
+------------
+------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake,Tory Lanez
+Venue: Resorts World Arena
+Location: Birmingham
 Date: 03/28/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin Timberlake
-Lineup: Justin Timberlake
-Venue: Nationwide Arena
-Location: Columbus
-Date: 03/31/2019
+Artist: Drake
+Lineup: Drake
+Venue: The O2 Arena
+Location: London
+Date: 04/01/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin Timberlake
-Lineup: Justin Timberlake
-Venue: Bankers Life Fieldhouse
-Location: Indianapolis
+Artist: Drake
+Lineup: Drake
+Venue: The O2 Arena
+Location: London
 Date: 04/02/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin Timberlake
-Lineup: Justin Timberlake
-Venue: Van Andel Arena
-Location: Grand Rapids
+Artist: Drake
+Lineup: Drake
+Venue: The O2 Arena
+Location: London
 Date: 04/04/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin Timberlake
-Lineup: Justin Timberlake
-Venue: KeyBank Center
-Location: Buffalo
-Date: 04/06/2019
+Artist: Drake
+Lineup: Drake,Tory Lanez
+Venue: The O2
+Location: London
+Date: 04/05/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin Timberlake
-Lineup: Justin Timberlake
-Venue: Wells Fargo Center
-Location: Philadelphia
+Artist: Drake
+Lineup: Drake,Tory Lanez
+Venue: The O2
+Location: London
+Date: 04/08/2019
+------------
+------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake
+Venue: The O2 Arena
+Location: London
 Date: 04/09/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin Timberlake
-Lineup: Justin Timberlake
-Venue: Mohegan Sun Arena
-Location: Uncasville
-Date: 04/12/2019
+Artist: Drake
+Lineup: Drake
+Venue: The O2 Arena
+Location: London
+Date: 04/11/2019
 ------------
 ------------
 Command: concert-this
-Artist: Justin Timberlake
-Lineup: Justin Timberlake
-Venue: Mohegan Sun Arena
-Location: Uncasville
-Date: 04/13/2019
+Artist: Drake
+Lineup: Drake
+Venue: SPORTPALEIS
+Location: Merksem
+Date: 04/19/2019
+------------
+------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake
+Venue: Ziggo Dome
+Location: Amsterdam
+Date: 04/23/2019
+------------
+------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake
+Venue: Ziggo Dome
+Location: Amsterdam
+Date: 04/25/2019
+------------
+------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake
+Venue: Ziggo Dome
+Location: Amsterdam
+Date: 04/26/2019
+------------
+------------
+Command: concert-this
+Artist: Drake
+Lineup: Drake,Nickelback,Red Hot Chili Peppers,Muse,Dave Matthews Band,Bon Jovi,Slayer,Megadeth,Iron Maiden,Scorpions,Sepultura,Seal,King Crimson,Os Paralamas do Sucesso,Imagine Dragons,Jessie J,Charlie Puth,Black Eyed Peas -,Anitta,P!nk
+Venue: Cidade do Rock
+Location: Rio De Janeiro
+Date: 09/27/2019
 ------------
