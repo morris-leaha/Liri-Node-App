@@ -502,3 +502,43 @@ Venue: Cidade do Rock
 Location: Rio De Janeiro
 Date: 09/27/2019
 ------------
+------------
+Command: spotify-this-song
+Search term: Without+Me
+Artist: Halsey
+Song: Without Me
+Album: Without Me
+Spotify URL: https://open.spotify.com/track/5p7ujcrUXASCNwRaWNHR1C
+------------
+------------
+Command: spotify-this-song
+Search term: Without+Me
+Artist: Halsey
+Song: Without Me
+Album: Without Me
+Spotify URL: https://open.spotify.com/track/5p7ujcrUXASCNwRaWNHR1C
+------------
+------------
+Command: spotify-this-song
+Search term: Without+Me
+Artist: Halsey
+Song: Without Me
+Album: Without Me
+Spotify URL: https://open.spotify.com/track/5p7ujcrUXASCNwRaWNHR1C
+------------
+------------
+Command: spotify-this-song
+Search term: Thank+U,+Next
+Artist: Ariana Grande
+Song: thank u, next
+Album: thank u, next
+Spotify URL: https://open.spotify.com/track/2rPE9A1vEgShuZxxzR2tZH
+------------
+------------
+Command: spotify-this-song
+Search term: Sicko+Mode
+Artist: Travis Scott
+Song: SICKO MODE
+Album: ASTROWORLD
+Spotify URL: https://open.spotify.com/track/2xLMifQCjDGFmkHkpNLD9h
+------------
