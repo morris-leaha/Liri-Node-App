@@ -72,6 +72,8 @@ You should be able to run LIRI by using the following command line codes:
         * Plot
         * List of Actors
         ```
+    * ![Movie-This](images/movie-this.gif) 
+
 4. `node liri.js do-what-it-says`
    * Using the `fs` Node package, LIRI will take the text written in the `random.txt` file and will use it to call one of LIRI's commands.
 
