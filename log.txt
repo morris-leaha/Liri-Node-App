@@ -542,3 +542,51 @@ Song: SICKO MODE
 Album: ASTROWORLD
 Spotify URL: https://open.spotify.com/track/2xLMifQCjDGFmkHkpNLD9h
 ------------
+------------
+Command: movie-this
+Search term: Titanic
+Title: Titanic
+Release Year: 1997
+IMDB Rating: 7.8
+Rotten Tomatoes Rating: 89%
+Produced in: USA
+Language: English, Swedish
+Plot: A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.
+Actors: Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates
+------------
+------------
+Command: movie-this
+Search term: Titanic
+Title: Titanic
+Release Year: 1997
+IMDB Rating: 7.8
+Rotten Tomatoes Rating: 89%
+Produced in: USA
+Language: English, Swedish
+Plot: A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.
+Actors: Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates
+------------
+------------
+Command: movie-this
+Search term: Pulp+Fiction
+Title: Pulp Fiction
+Release Year: 1994
+IMDB Rating: 8.9
+Rotten Tomatoes Rating: 94%
+Produced in: USA
+Language: English, Spanish, French
+Plot: The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.
+Actors: Tim Roth, Amanda Plummer, Laura Lovelace, John Travolta
+------------
+------------
+Command: movie-this
+Search term: Saving+Private+Ryan
+Title: Saving Private Ryan
+Release Year: 1998
+IMDB Rating: 8.6
+Rotten Tomatoes Rating: 93%
+Produced in: USA
+Language: English, French, German, Czech
+Plot: Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.
+Actors: Tom Hanks, Tom Sizemore, Edward Burns, Barry Pepper
+------------

@@ -141,7 +141,7 @@ function movie() {
 
     // query URL for OMDB via documentation (http://omdbapi.com/)
     var qURL = "http://www.omdbapi.com/?apikey=trilogy&t=" + movie;
-    console.log(qURL);
+    // console.log(qURL);
 
     // make GET request adapted from axios documentation (https://www.npmjs.com/package/axios)
     axios.get(qURL).then(function (response) {
