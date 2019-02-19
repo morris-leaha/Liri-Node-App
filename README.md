@@ -28,7 +28,7 @@ SPOTIFY_SECRET=your-spotify-secret
 ```
 ## How To Obtain Your Own Necessary Spotify API Credentials: 
 1. Visit <https://developer.spotify.com/my-applications/#!/>
-2. in to either an existing Spotify account or create a new one (a free account is fine) and log in.
+2. Log in to either an existing Spotify account or create a new one (a free account is fine) and log in.
 3. Once logged in, navigate to <https://developer.spotify.com/my-applications/#!/applications/create> to register for a new application to be used with the Spotify API. 
 4. On the next screen, copy the corresponding values into your `.env` file.
 
