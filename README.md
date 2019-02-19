@@ -32,7 +32,7 @@ SPOTIFY_SECRET=your-spotify-secret
 3. Once logged in, navigate to <https://developer.spotify.com/my-applications/#!/applications/create> to register for a new application to be used with the Spotify API. 
 4. On the next screen, copy the corresponding values into your `.env` file.
 
-**NOTE:** This file will set your spotify credentials as "environment variables" to the global `process.env` object in nofe, so that they can be used by the `dotenv` node package to remain private! 
+**NOTE:** This file will set your spotify credentials as "environment variables" to the global `process.env` object in node, so that they can be used by the `dotenv` node package to remain private! 
 
 ## Run LIRI Using Node.JS 
 (If necessary, you can download Node.JS <a href="https://nodejs.org/en/download/">here</a>)
